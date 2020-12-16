@@ -1,0 +1,133 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:arial;
+
+}
+body
+{
+  background-color: #023E7D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+header
+{
+  	background-color: #002855;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+display: flex;
+	justify-content: space-between;
+	align-items: center;
+transition: 0.6;
+	padding: 40px 100px;
+z-index: 100000;
+}
+
+#logo
+{
+	background-image: url(logo1.png);
+	width: 100px;
+	float: left;
+	height:87px;
+ background-size: 100%
+
+}
+header ul
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li
+{
+	position: relative;
+	list-style: none;
+}
+header ul li a
+{
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.6s;
+}
+
+.container
+{
+  margin-top: 10px;
+    position: relative;
+    display: flex;
+    width: 1100px;
+    justify-content: center;
+
+}
+.container .card
+
+{
+    position: relative;
+    padding: 10px 0;
+    border: 2px; solid #000;
+    text-align: center;
+    background: #0466c8;
+    z-index: 1;
+}
+
+.container .card .details
+{
+  position: relative;
+  text-align: center;
+  height: 316px;
+  transition: 0.5s;
+  border: 2px solid #000;
+  margin-top: -2px;
+  overflow: hidden;
+}
+.container .card .details .content
+{
+  position: relative;
+  padding: 40px 20px;
+
+}
+.container .card .details .content h2
+{
+  font-size: 3em;
+  font-weight: 500;
+}
+.container .card .details .content h2 span
+{
+  font-size: 0.4em;
+}
+.container .card .details .content a
+{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: #001233;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 200px 31px 200px 0px;
+-moz-border-radius: 200px 31px 200px 0px;
+-webkit-border-radius: 200px 31px 200px 0px;
+border: 0px solid #000000;
+}
+.container .card: nth-child(1) .name
+{
+  background: #d2fff2;
+}
+.container .card:nth-child(1) .details
+{
+
+  background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(38,109,252,1) 100%);
+}
